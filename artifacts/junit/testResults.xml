@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<testsuites>
+
+  <testsuite errors="0" failures="0" name="tests.DatastoreTests" skipped="0" tests="8" time="3.7393">
+    <testcase classname="tests.DatastoreTests" name="testReadData(miniBatchSize=value1)" time="1.5955"/>
+    <testcase classname="tests.DatastoreTests" name="testReadData(miniBatchSize=value2)" time="0.36098"/>
+    <testcase classname="tests.DatastoreTests" name="testReadData(miniBatchSize=value3)" time="0.27921"/>
+    <testcase classname="tests.DatastoreTests" name="testReset" time="0.4139"/>
+    <testcase classname="tests.DatastoreTests" name="testUnpairable" time="0.38327"/>
+    <testcase classname="tests.DatastoreTests" name="testSetMiniBatchSize" time="0.2452"/>
+    <testcase classname="tests.DatastoreTests" name="testOptionalArgs" time="0.19523"/>
+    <testcase classname="tests.DatastoreTests" name="testAugmenter" time="0.26602"/>
+  </testsuite>
+
+  <testsuite errors="0" failures="0" name="tests.DiscriminatorTest" skipped="0" tests="3" time="3.6239">
+    <testcase classname="tests.DiscriminatorTest" name="testForwardOutputSize(miniBatchSize=value1)" time="2.3481"/>
+    <testcase classname="tests.DiscriminatorTest" name="testForwardOutputSize(miniBatchSize=value2)" time="0.76132"/>
+    <testcase classname="tests.DiscriminatorTest" name="testForwardOutputSize(miniBatchSize=value3)" time="0.51441"/>
+  </testsuite>
+
+  <testsuite errors="0" failures="0" name="tests.GeneratorTest" skipped="0" tests="6" time="19.0947">
+    <testcase classname="tests.GeneratorTest" name="testForwardOutputSize(inputChannels=value1,miniBatchSize=value1)" time="3.1284"/>
+    <testcase classname="tests.GeneratorTest" name="testForwardOutputSize(inputChannels=value1,miniBatchSize=value2)" time="3.3795"/>
+    <testcase classname="tests.GeneratorTest" name="testForwardOutputSize(inputChannels=value1,miniBatchSize=value3)" time="3.3955"/>
+    <testcase classname="tests.GeneratorTest" name="testForwardOutputSize(inputChannels=value2,miniBatchSize=value1)" time="2.5355"/>
+    <testcase classname="tests.GeneratorTest" name="testForwardOutputSize(inputChannels=value2,miniBatchSize=value2)" time="3.2409"/>
+    <testcase classname="tests.GeneratorTest" name="testForwardOutputSize(inputChannels=value2,miniBatchSize=value3)" time="3.4149"/>
+  </testsuite>
+
+  <testsuite errors="0" failures="0" name="tests.InstanceNormTest" skipped="0" tests="7" time="2.7459">
+    <testcase classname="tests.InstanceNormTest" name="testCreate" time="0.043943"/>
+    <testcase classname="tests.InstanceNormTest" name="testForward" time="0.028059"/>
+    <testcase classname="tests.InstanceNormTest" name="testForwardChannels" time="0.0084033"/>
+    <testcase classname="tests.InstanceNormTest" name="testBatchNormEquivDlarray" time="0.16075"/>
+    <testcase classname="tests.InstanceNormTest" name="testForwardChannelsBatch" time="0.00814"/>
+    <testcase classname="tests.InstanceNormTest" name="testForwardOffset" time="0.012008"/>
+    <testcase classname="tests.InstanceNormTest" name="testLayerChecks" time="2.4845"/>
+  </testsuite>
+
+  <testsuite errors="0" failures="0" name="tests.TrainingPlotTest" skipped="0" tests="4" time="0.067365">
+    <testcase classname="tests.TrainingPlotTest" name="testPrepForPlot(inChannels=value1,outChannels=value1)" time="0.045925"/>
+    <testcase classname="tests.TrainingPlotTest" name="testPrepForPlot(inChannels=value2,outChannels=value2)" time="0.007991"/>
+    <testcase classname="tests.TrainingPlotTest" name="testPrepForPlot(inChannels=value3,outChannels=value3)" time="0.0089918"/>
+    <testcase classname="tests.TrainingPlotTest" name="testPrepForPlot(inChannels=value4,outChannels=value4)" time="0.0044574"/>
+  </testsuite>
+
+  <testsuite errors="0" failures="0" name="tests.TrainingTest" skipped="0" tests="3" time="24.1277">
+    <testcase classname="tests.TrainingTest" name="testTrainAndTranslate" time="7.6842"/>
+    <testcase classname="tests.TrainingTest" name="testTrainAndResume" time="8.8938"/>
+    <testcase classname="tests.TrainingTest" name="testWithPlot" time="7.5496"/>
+  </testsuite>
+
+</testsuites>

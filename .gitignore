@@ -1,5 +1,7 @@
 checkpoints/
 scratch/
 datasets/
-CelebA-HQ-img
+CelebA-HQ-img/
 *.asv
+tests/
+CelebA_Line/
