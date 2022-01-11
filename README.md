@@ -4,6 +4,8 @@ This script shows how to reconstruct face images from their sketch-like image us
 
 This code is created based on [https://github.com/matlab-deep-learning/pix2pix.](https://github.com/matlab-deep-learning/pix2pix.) 
 
+![](README_images/output.gif)  
+
 # Preparation
 
 Fisrt of all, please download CelebAMask-HQ dataset. CelebAMask-HQ is a large-scale face image dataset that has 30,000 high-resolution face images selected from the CelebA dataset. 
