@@ -5,3 +5,5 @@ CelebA-HQ-img/
 *.asv
 tests/
 CelebA_Line/
+results/
+paper/
